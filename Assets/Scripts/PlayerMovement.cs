@@ -36,4 +36,12 @@ public class PlayerMovement : MonoBehaviour {
         }
 
     }
+    public Rigidbody State()
+    {
+        return body;
+    }
+    public void Activate(Rigidbody state)
+    {
+        body = state;
+    }
 }
