@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIKCZ", "GIKCZ.csproj", "{C385AC3D-D00B-1C6C-574C-8D2183183D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIKCZ.Plugins", "GIKCZ.Plugins.csproj", "{301F0D47-FF68-BFEB-8588-7E1AADE78452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIKCZ.Editor.Plugins", "GIKCZ.Editor.Plugins.csproj", "{7DD32241-3C6C-5C93-2522-935056075691}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C385AC3D-D00B-1C6C-574C-8D2183183D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C385AC3D-D00B-1C6C-574C-8D2183183D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C385AC3D-D00B-1C6C-574C-8D2183183D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C385AC3D-D00B-1C6C-574C-8D2183183D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301F0D47-FF68-BFEB-8588-7E1AADE78452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301F0D47-FF68-BFEB-8588-7E1AADE78452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301F0D47-FF68-BFEB-8588-7E1AADE78452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301F0D47-FF68-BFEB-8588-7E1AADE78452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD32241-3C6C-5C93-2522-935056075691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD32241-3C6C-5C93-2522-935056075691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD32241-3C6C-5C93-2522-935056075691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD32241-3C6C-5C93-2522-935056075691}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
