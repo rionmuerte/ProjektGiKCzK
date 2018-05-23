@@ -69,3 +69,4 @@ graczowi do czasu gry, duże wypada ustawiać w
 miejscach gdzie jest dodatkowy wysiłek sie dostać
 Ustawiamy je jako dzieci pustego obiektu LevelObjects
 
+Przed ustaleniem poziomu trudności sceny do leveli dodawajcie jako [imię][numer]
