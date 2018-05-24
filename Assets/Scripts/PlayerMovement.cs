@@ -13,8 +13,12 @@ public class PlayerMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        //Budowanie na komputer - odkomentować to:
         float up = Input.GetAxis("Horizontal");
         float side = Input.GetAxis("Vertical");
+        //budowanie na telefon - odkomentować to:
+        //float up = Input.acceleration.x;
+        //float side = Input.acceleration.z;
 
         Vector3 move = new Vector3(up, 0, side);
 
