@@ -22,6 +22,7 @@ public class LocalTimer : MonoBehaviour {
     }
     // Use this for initialization
     void Start() {
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
         localTime = 0f;
         isRunning = true;
         timeLevelDisplay.text = "Time left: " + timeForLevel.ToString();

@@ -13,8 +13,8 @@ public class PlayerMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        float up = Input.GetAxis("Horizontal");
-        float side = Input.GetAxis("Vertical");
+        float up =  Input.acceleration.x;//Input.GetAxis("Horizontal");//
+        float side = Input.acceleration.y;//  Input.GetAxis("Vertical"); //
 
         Vector3 move = new Vector3(up, 0, side);
 
