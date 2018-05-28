@@ -14,11 +14,11 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //Budowanie na komputer - odkomentować to:
-        float up = Input.GetAxis("Horizontal");
-        float side = Input.GetAxis("Vertical");
+        //float up = Input.GetAxis("Horizontal");
+        //float side = Input.GetAxis("Vertical");
         //budowanie na telefon - odkomentować to:
-        //float up = Input.acceleration.x;
-        //float side = Input.acceleration.z;
+        float up = Input.acceleration.x;
+        float side = Input.acceleration.y;
 
         Vector3 move = new Vector3(up, 0, side);
 
@@ -47,5 +47,13 @@ public class PlayerMovement : MonoBehaviour {
     public void Activate(Rigidbody state)
     {
         body = state;
+    }
+    private float trim(float input)
+    {
+        if (input > .5f) return 1f;
+        if (input > .1f) return .5f;
+        if (input < -.5f) return -1f;
+        if (input < -.1f) return .5f;
+        return 0f;
     }
 }

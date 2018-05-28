@@ -164,7 +164,7 @@ Prefab:
     - target: {fileID: 114800565206560560, guid: 0ca63d191a9b4984fa3ddbc283545eed,
         type: 2}
       propertyPath: hintsText
-      value: Move the ball using arrows or WSAD
+      value: Move the ball by tilting phone
       objectReference: {fileID: 0}
     - target: {fileID: 4521390492814212, guid: 0ca63d191a9b4984fa3ddbc283545eed, type: 2}
       propertyPath: m_LocalScale.x
@@ -540,6 +540,16 @@ Prefab:
         type: 2}
       propertyPath: speed
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114810736572506586, guid: 5c755ef9ed806744d91448443676d975,
+        type: 2}
+      propertyPath: x
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114810736572506586, guid: 5c755ef9ed806744d91448443676d975,
+        type: 2}
+      propertyPath: y
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5c755ef9ed806744d91448443676d975, type: 2}
